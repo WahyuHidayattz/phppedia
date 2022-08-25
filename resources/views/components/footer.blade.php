@@ -39,6 +39,6 @@
     </div>
 
     <div class="flex flex-col items-center bg-gray-800 border-t border-dashed container-x border-t-slate-700">
-        <span class="text-xs">&copy; 2022 - PHP pedia</span>
+        <span class="text-xs">&copy; 2022 - PHP Pedia</span>
     </div>
 </div>
