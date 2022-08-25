@@ -5,3 +5,7 @@
 .container-x {
     @apply px-4 md:px-8 lg:px-12 xl:px-20 py-4
 }
+
+.input {
+    @apply w-full px-4 py-2 bg-gray-100 border border-gray-200 rounded-md outline-none focus:ring focus:ring-violet-500/30 focus:border-violet-600 transition duration-300
+}

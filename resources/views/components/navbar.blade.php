@@ -8,9 +8,9 @@
         PHP Pedia
     </h1>
     <div class="flex flex-row items-center gap-3 text-sm text-gray-500">
-        <a href=""
+        <a href="{{ route('login') }}"
             class="flex flex-row items-center px-4 py-2 border border-gray-200 rounded-lg hover:bg-gray-200">Login</a>
-        <a href=""
-            class="flex flex-row items-center px-4 py-2 text-white rounded-lg bg-violet-500 hover:bg-violet-600">Logout</a>
+        <a href="{{ route('register') }}"
+            class="flex flex-row items-center px-4 py-2 text-white rounded-lg bg-violet-500 hover:bg-violet-600">Register</a>
     </div>
 </div>
