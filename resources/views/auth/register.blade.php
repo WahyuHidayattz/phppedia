@@ -1,4 +1,4 @@
-<x-template title="Login">
+<x-template title="Register">
     <div class="flex flex-col items-center justify-center w-full min-h-screen text-gray-600 bg-gray-100 container-x">
         <div class="bg-white rounded-md shadow-lg max-w-[500px] w-[400px] p-6 flex flex-col">
             <div class="flex flex-col">
@@ -12,7 +12,8 @@
                 </a>
                 <span class="text-xl font-semibold text-violet-600">Register</span>
             </div>
-            <div class="flex flex-col gap-3 py-6 text-sm">
+            <form action="" method="POST" class="flex flex-col gap-3 py-6 text-sm" autocomplete="off">
+                @csrf
                 <div class="flex flex-col gap-1">
                     <label for="name">Full Name</label>
                     <input type="text" name="name"
@@ -38,7 +39,7 @@
                     <span>Sudah punya akun ?</span>
                     <a href="{{ route('login') }}" class="text-violet-600 hover:underline">Login</a>
                 </div>
-            </div>
+            </form>
         </div>
     </div>
 </x-template>

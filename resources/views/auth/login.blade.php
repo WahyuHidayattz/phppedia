@@ -12,7 +12,7 @@
                 </a>
                 <span class="text-xl font-semibold text-violet-600">Login</span>
             </div>
-            <div class="flex flex-col gap-3 py-6 text-sm">
+            <form action="" method="POST" class="flex flex-col gap-3 py-6 text-sm">
                 <div class="flex flex-col gap-1">
                     <label for="username">Username</label>
                     <input type="text" name="username"
@@ -28,7 +28,7 @@
                     <span>Tidak punya akun ?</span>
                     <a href="{{ route('register') }}" class="text-violet-600 hover:underline">Register</a>
                 </div>
-            </div>
+            </form>
         </div>
     </div>
 </x-template>
